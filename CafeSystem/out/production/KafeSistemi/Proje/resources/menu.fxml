@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="383.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Proje.controller.menuController">
+    <children>
+        <Text layoutX="149.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ANA MENÜ" textAlignment="CENTER" wrappingWidth="204.13671875">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Text>
+          <Button fx:id="siparis" layoutX="145.0" layoutY="65.0" mnemonicParsing="false" onMouseClicked="#siparisClicked" prefHeight="50.0" prefWidth="212.0" text="Sipariş" />
+          <Button fx:id="finans" layoutX="145.0" layoutY="162.0" mnemonicParsing="false" onMouseClicked="#finansClicked" prefHeight="50.0" prefWidth="212.0" text="Finans" />
+          <Button fx:id="stok" layoutX="145.0" layoutY="261.0" mnemonicParsing="false" onMouseClicked="#stokClicked" prefHeight="50.0" prefWidth="212.0" text="Stok" />
+      <ImageView fitHeight="50.0" fitWidth="70.0" layoutX="68.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../received.png" />
+         </image></ImageView>
+      <ImageView fx:id="myImageView1" fitHeight="50.0" fitWidth="50.0" layoutX="68.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../order%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="68.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../case.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
